@@ -1,0 +1,28 @@
+###
+GET http://localhost:3333/carros
+
+###
+
+POST http://localhost:3333/carros
+Content-Type: application/json
+
+{
+    "marca": "Porsche",
+    "modelo": "911 Carrera",
+    "placa": "XYZ9W8"
+}
+
+###
+
+PUT http://localhost:3333/carros/id
+Content-Type: application/json
+
+{
+    "marca": "Audi",
+    "modelo": "R8",
+    "placa": "ABC2D45"
+}
+
+###
+
+DELETE http://localhost:3333/carros/id
